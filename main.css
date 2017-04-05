@@ -1,0 +1,218 @@
+/*************
+general
+*************/
+body{
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
+h1{
+    color: #0a2b46;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.clear{
+
+    clear: both;
+}
+hr{
+    clear: both;
+
+}
+
+
+/*********
+heading
+*********/
+header {
+    background-color: #0a233d;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 90px;
+}
+
+#burger-menu {
+    position: relative;
+    float: left;
+    top: 18px;
+    left: 5%;
+
+}
+#logo{
+    position: relative;
+    float: left;
+    left: 10%;
+    margin-right: 2%;
+}
+#search{
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 5%;
+
+}
+
+
+nav {
+    clear: both;
+    text-align: center;
+    background-color: #0a233d;
+    border-bottom: 3px solid #0d5990;
+    height: 30px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+nav ul {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 23px;
+    box-sizing: border-box;
+}
+
+nav ul li:hover {
+    color: white;
+    border-bottom: 2px solid #0d5990;
+}
+
+nav ul li#selected {
+    background-color: #0d5990;
+    border-bottom: 2px solid #0d5990;
+}
+
+nav ul li {
+    font-weight: normal;
+    width: 50px;
+    border-radius: 2px;
+    padding: 2px 5px;
+    margin: 0 1% 0;
+    list-style: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+/*****************
+radio button
+*****************/
+#first-section{
+    float: left;
+    padding: 0 5%;
+/*    width: 60%;
+    height: 565px;*/
+    margin-bottom: 15px;
+}
+input[type=text]{
+    width: 180px;
+    height: 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: solid 2px cornflowerblue;
+}
+
+#postcode {
+    width: 90px;
+}
+input[type=submit] {
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin: 8px 0;
+    border-width: 0;
+    border-radius: 20px;
+    background-color: #0a233d;
+    color: white;
+}
+.radio-toolbar input[type="radio"] {
+    position: absolute;
+    display: none;
+}
+
+.radio-toolbar label {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    font-family: Arial;
+    font-size: 16px;
+    border: 0.13em solid cornflowerblue;
+    padding: 0 20px;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+
+
+
+/*******************
+custom radio button
+*******************/
+.outer{
+    margin: 0;
+    position: relative;
+    right: 18px;
+    top: -15.5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 1px solid cornflowerblue;
+}
+.inner{
+    position: relative;
+    left: 3px;
+    top: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+}
+
+
+
+
+/******************
+section 2
+*******************/
+#second-section{
+    float: left;
+/*    height: 565px;*/
+/*    width: 30%;*/
+/*    margin-bottom: 10px;*/
+}
+
+
+
+
+/******************
+footer
+*******************/
+footer{
+    background-color: pink;
+    box-sizing: border-box;
+
+}
+footer ~ ul {
+    margin-bottom: 25px;
+}
+
+
+
+
