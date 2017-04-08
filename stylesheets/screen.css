@@ -125,7 +125,7 @@
 }
 /* line 98, ../sass/screen.scss */
 * #container {
-  max-width: 940px;
+  max-width: 960px;
   margin: 0 auto;
 }
 /* line 102, ../sass/screen.scss */
@@ -327,7 +327,7 @@
 * body section form input[name=postcode] {
   padding: 0 10px;
   width: 90px;
-  height: 25px;
+  height: 30px;
   outline-style: none;
   border: 2px solid cornflowerblue;
   border-radius: 20px;
@@ -389,7 +389,7 @@
 /* line 334, ../sass/screen.scss */
 * body section form .radio-toolbar label {
   display: inline-block;
-  width: 55px;
+  width: 70px;
   height: 30px;
   background-color: white;
   color: cornflowerblue;
@@ -407,20 +407,20 @@
 * body section form .radio-toolbar label .outer {
   margin: 0;
   position: relative;
-  right: 16px;
+  right: 17px;
   top: -14px;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   border-radius: 100%;
-  border: 1px solid cornflowerblue;
+  border: 2px solid cornflowerblue;
 }
 /* line 361, ../sass/screen.scss */
 * body section form .radio-toolbar label .inner {
   position: relative;
   left: 2px;
   top: 2px;
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 100%;
   background-color: cornflowerblue;
 }
@@ -430,25 +430,25 @@
   color: white;
 }
 /* line 375, ../sass/screen.scss */
+* body section form .radio-toolbar input[type="radio"]:checked + label .outer {
+  margin: 0;
+  position: relative;
+  right: 17px;
+  top: -14px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+/* line 385, ../sass/screen.scss */
 * body section form .radio-toolbar input[type="radio"]:checked + label .inner {
   position: relative;
   left: 2px;
   top: 2px;
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 100%;
   background-color: white;
-}
-/* line 384, ../sass/screen.scss */
-* body section form .radio-toolbar input[type="radio"]:checked + label .outer {
-  margin: 0;
-  position: relative;
-  right: 16px;
-  top: -14px;
-  width: 12px;
-  height: 12px;
-  border-radius: 100%;
-  border: 1px solid white;
 }
 /* line 396, ../sass/screen.scss */
 * body section form .radio-toolbar input[type="radio"]:checked + label#radio-button-select {
