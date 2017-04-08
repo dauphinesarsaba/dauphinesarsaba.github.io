@@ -425,7 +425,17 @@
   background-color: cornflowerblue;
   color: white;
 }
+<<<<<<< HEAD
 /* line 374, ../sass/screen.scss */
+* body section form .radio-toolbar input[type="radio"]:checked + label .outer {
+  margin: 0;
+  position: relative;
+  right: 17px;
+  top: -14px;
+  width: 16px;
+  height: 16px;
+=======
+/* line 375, ../sass/screen.scss */
 * body section form .radio-toolbar input[type="radio"]:checked + label .outer {
   margin: 0;
   position: relative;
@@ -436,6 +446,18 @@
   border-radius: 100%;
   border: 2px solid white;
 }
+/* line 385, ../sass/screen.scss */
+* body section form .radio-toolbar input[type="radio"]:checked + label .inner {
+  position: relative;
+  left: 2px;
+  top: 2px;
+  width: 8px;
+  height: 8px;
+>>>>>>> 978d77ed5b214fcc181cef5d6112a7b87802df5c
+  border-radius: 100%;
+  border: 2px solid white;
+}
+<<<<<<< HEAD
 /* line 384, ../sass/screen.scss */
 * body section form .radio-toolbar input[type="radio"]:checked + label .inner {
   position: relative;
@@ -447,6 +469,9 @@
   background-color: white;
 }
 /* line 395, ../sass/screen.scss */
+=======
+/* line 396, ../sass/screen.scss */
+>>>>>>> 978d77ed5b214fcc181cef5d6112a7b87802df5c
 * body section form .radio-toolbar input[type="radio"]:checked + label#radio-button-select {
   background-color: cornflowerblue;
   border: 1px solid white;
