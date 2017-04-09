@@ -257,16 +257,19 @@
     /**************
     first section
     **************/
-    section {
+    #first-section {
       float: left;
       font-family: 'Droid Sans', sans-serif;
+      padding: 2%;
+      border-right: 1px solid black;
+      border-right-heigth: 90%;
       h2 {
         font-weight: lighter;
         font-size: 2em;
         margin-bottom: 30px;
       }
       form {
-        padding: 0 50px 0 20px ;
+        padding: 0 0 0 20px ;
         p {
           text-space: 5px;
           margin-bottom: 10px;
@@ -274,7 +277,7 @@
         input[name=postcode] {
           padding: 0 10px;
           width: 90px;
-          height: 25px;
+          height: 30px;
           outline-style: none;
           border: 2px solid cornflowerblue;
           border-radius: 20px;
@@ -333,16 +336,15 @@
 
         .radio-toolbar label {
           display: inline-block;
-          width: 55px;
+          width: 65px;
           height: 30px;
           background-color: white;
           color: cornflowerblue;
           border-radius: 20px;
-          font-family: Arial;
           font-size: 16px;
           cursor: pointer;
           border: 0.15em solid cornflowerblue;
-          padding: 0 20px;
+          padding: 3px 30px;
 
 
       /*******************
@@ -351,19 +353,19 @@
           .outer {
             margin: 0;
             position: relative;
-            right: 16px;
-            top: -14px;
-            width: 12px;
-            height: 12px;
+            right: 25px;
+            top: -17px;
+            width: 16px;
+            height: 16px;
             border-radius: 100%;
-            border: 1px solid cornflowerblue;
+            border: 2px solid cornflowerblue;
           }
           .inner {
             position: relative;
             left: 2px;
             top: 2px;
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             border-radius: 100%;
             background-color: cornflowerblue;
           }
@@ -372,24 +374,24 @@
         .radio-toolbar input[type="radio"]:checked + label {
           background-color: cornflowerblue;
           color: white;
-          .inner{
-            position: relative;
-            left: 2px;
-            top: 2px;
-            width: 6px;
-            height: 6px;
-            border-radius: 100%;
-            background-color: white;
-          }
           .outer {
             margin: 0;
             position: relative;
-            right: 16px;
-            top: -14px;
-            width: 12px;
-            height: 12px;
+            right: 25px;
+            top: -17px;
+            width: 16px;
+            height: 16px;
             border-radius: 100%;
-            border: 1px solid white;
+            border: 2px solid white;
+          }
+          .inner {
+            position: relative;
+            left: 2px;
+            top: 2px;
+            width: 8px;
+            height: 8px;
+            border-radius: 100%;
+            background-color: white;
           }
 
         }
@@ -407,6 +409,7 @@
     #second-section {
       float: right;
       padding: 1%;
+      height: 100%;
       h4 {
         margin: 10px 0;
         font-weight: 600;
@@ -550,6 +553,9 @@
     }
     header #head #logo{
       left: 20px;
+    }
+    section hr.col-12{
+      display: none;
     }
   }
   /**************
